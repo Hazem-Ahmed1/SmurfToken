@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Change Placeholder Language</title>
+</head>
+<body>
+  <input type="text" placeholder="Username">
+
+
+  <script>
+    function changePlaceholderLanguage() {
+      var placeholderText = document.querySelector('input');
+      var lang = window.navigator.language;
+
+      if (false) {
+        placeholderText.placeholder = 'Username';
+      } else {
+        placeholderText.placeholder = 'Placeholder';
+      }
+    }
+
+    window.addEventListener('DOMContentLoaded', changePlaceholderLanguage);
+  </script>
+</body>
+</html>

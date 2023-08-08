@@ -31,13 +31,13 @@
             <!-- Items  -->
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#game">Game</a></li>
-                    <li><a href="#nft">NFT</a></li>
-                    <li><a href="#token">Token</a></li>
-                    <li><a href="#roadmap">Roadmap</a></li>
-                    <li><a href="#contact">Contact-us</a></li>
+                    <li><a href="#hero" data-i18n="home">Home</a></li>
+                    <li><a href="#about" data-i18n="about">About</a></li>
+                    <li><a href="#game" data-i18n="game">Game</a></li>
+                    <li><a href="#nft" data-i18n="NFT">NFT</a></li>
+                    <li><a href="#token" data-i18n="Token">Token</a></li>
+                    <li><a href="#roadmap" data-i18n="Roadmap">Roadmap</a></li>
+                    <li><a href="#contact" data-i18n="contact">Contact-us</a></li>
                 </ul>
             </nav>
             <div class="header-social-links">
@@ -45,6 +45,12 @@
                 <a href="#" class="notification iconSocial"><i class="fa-solid fa-bell"></i></a>
                 <button class="dark"><i class="fa-solid fa-moon"></i></button>
             </div>
+            <div class="langButton" >
+                <button class="langBtn" data-i18n="selectLanguage" id="languageButton">
+                    Chinese Language
+                </button>
+            </div>
+
 
             <!-- Responsive  -->
             <i class="mobile-nav-toggle mobile-nav-show fa-solid fa-bars"></i>
@@ -57,16 +63,22 @@
         <div class="container">
             <div class="row">
                 <div
+
                     class=" animate__animated animate__fadeIn col-lg-6 col-12 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-1 order-lg-1">
-                    <div class="title-main">
-                        <h1 style="color:red;font-family:'Rubik', sans-serif" ><span style="color: #29b9ee;" >SMURFS</span> TOKEN</h1>
+                    <div class="title-main d-flex" style="justify-content: flex-start; ">
+                        <h1 style="color:#29b9ee; font-family:'Rubik', sans-serif;" data-i18n="smurfs">SMURFS</h1>
+                        <h1 style="padding-left:15px;color:red;font-family:'Rubik', sans-serif;" data-i18n="token">TOKEN</h1>
                     </div>
-                    <p class="text-main" style="font-size: 22px;">Benefit from smurfs by collecting blueberries using decentralized application.</p>
+                    <p class="text-main" style="font-size: 22px;" data-i18n="benefit">Benefit from smurfs by collecting blueberries using decentralized application.</p>
                     <div class="d-flex btns-main justify-content-center justify-content-lg-start">
-                        <a href="smurfs token.txt" download="smurfs token.txt" class="customBtn"><i class="fa-solid fa-palette"
-                                style="padding-right:10px;"></i>Whitepaper</a>
-                        <a class="customBtn"><i class="fa-solid fa-file-shield"
-                                style="padding-right:10px;"></i>Pre-Sale</a>
+                        <a  href="smurfs token.txt" download="smurfs token.txt" class="customBtn">
+                            <i class="fa-solid fa-palette" style="padding-right:10px;"></i>
+                            <span data-i18n="whitepaper">Whitepaper</span>
+                        </a>
+                        <a  class="customBtn">
+                            <i class="fa-solid fa-file-shield" style="padding-right:10px;"></i>
+                            <span data-i18n="presale">Pre-Sale</span>
+                        </a>
 
                     </div>
                 </div>
@@ -83,25 +95,25 @@
                 <div class="col-6" >
                     <div class="text-left telegram-box" >
                         <a target="_blank" href="https://twitter.com/SmurfsTokenNFT?t=wtjp_W-yNtbr-nDLAhXnRQ&s=09" class="iconSocial"><i class="fa-brands fa-twitter"></i></a>
-                        <span><a target="_blank" href="https://twitter.com/SmurfsTokenNFT?t=wtjp_W-yNtbr-nDLAhXnRQ&s=09">Twitter</a></span>
+                        <span><a target="_blank" href="https://twitter.com/SmurfsTokenNFT?t=wtjp_W-yNtbr-nDLAhXnRQ&s=09" data-i18n="twitter">Twitter</a></span>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="text-left telegram-box" >
                         <a target="_blank" href="https://t.me/smurfsAnnouncement" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
-                        <span><a target="_blank" href="https://t.me/smurfsAnnouncement">Telegram Channel</a></span>
+                        <span><a target="_blank" href="https://t.me/smurfsAnnouncement" data-i18n="tgch">Telegram Channel</a></span>
                     </div>
                 </div>
                 <div class="col-6 mt-5" >
                     <div class="text-left telegram-box" >
                         <a target="_blank" href="https://t.me/smurfsEN" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
-                        <span><a target="_blank" href="https://t.me/smurfsEN">Telegram English</a></span>
+                        <span><a target="_blank" href="https://t.me/smurfsEN" data-i18n="tgen">Telegram English</a></span>
                     </div>
                 </div>
                 <div class="col-6 mt-5" >
                     <div class="text-left telegram-box" >
                         <a target="_blank" href="https://t.me/smurfsCH" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
-                        <span><a target="_blank" href="https://t.me/smurfsCH">Telegram Chinese</a></span>
+                        <span><a target="_blank" href="https://t.me/smurfsCH" data-i18n="tgchi">Telegram Chinese</a></span>
                     </div>
                 </div>
             </div>
@@ -111,11 +123,11 @@
     <section id="about">
         <div class="container">
             <div class=" titles col-12 text-center" style="padding: 10px;">
-                <h1 style="margin: 0;">OUR MISSION</h1>
+                <h1 style="margin: 0;" data-i18n="ourMission">OUR MISSION</h1>
             </div>
             <div class="Testmonial row">
                 <div class="animate__fadeIn animate__animated titles-ForAbout  text-center col-lg-4 col-md-4 col-12 mt-5">
-                    <div class="Information text-center">
+                    <div class="Information text-center" data-i18n="aboutST">
                         <p>The project smurfs token started in second quarter of 2023 , the project is made of multiple aspects. first, to create a crypto token by the name smurfs token. second,to create an API that will increase functionality for developers,so they can integrate it with their systems and make the payment process simple. third,to develop a B2E game by the name blueberry through collecting blueberries.fourthli,
                             NFT market to buy and sell smurfs nft and develop it.
                         </p>
@@ -124,8 +136,8 @@
                 <div  class="person animate__fadeIn animate__animated text-center col-lg-4 col-md-4 col-12 mt-5" >
                     <div class="prof-img pt-5" >
                         <img src="img/b6e5e0c1-ecf8-41b5-8a06-7f72590367ce.jpg" alt="">
-                        <h3 class="mt-2 mb-2">Sam Freude</h3>
-                        <p style="width: 60%;margin:0px auto; text-align:center;font-family: 'Rubik', sans-serif;">CEO 4 years of experience in developing and managing crypto currency projects.</p>
+                        <h3 class="mt-2 mb-2" data-i18n="sam">Sam Freude</h3>
+                        <p style="width: 60%;margin:0px auto; text-align:center;font-family: 'Rubik', sans-serif;" data-i18n="saminfo">CEO 4 years of experience in developing and managing crypto currency projects.</p>
                         <div class="text-center telegram-icon-style " >
                             <a target="_blank" href="https://t.me/SamFreudeSST"><i class="fa-brands fa-telegram"></i></a>
                         </div>
@@ -134,8 +146,8 @@
                 <div  class="person animate__fadeIn animate__animated text-center col-lg-4 col-md-4 col-12 mt-5">
                     <div class="prof-img pt-5" >
                         <img src="img/femaleSmurf.png" alt="">
-                        <h3 class="mt-2 mb-2">Sarah</h3>
-                        <p style="width: 60%;margin:0px auto; text-align:center;font-family: 'Rubik', sans-serif;">marketing director with experience in marketing.</p>
+                        <h3 class="mt-2 mb-2" data-i18n="sarah">Sarah</h3>
+                        <p style="width: 60%;margin:0px auto; text-align:center;font-family: 'Rubik', sans-serif;" data-i18n="sarahinfo">marketing director with experience in marketing.</p>
                         <br>
                         <div class="text-center telegram-icon-style " >
                             <a target="_blank" href="https://t.me/SarahSST"><i class="fa-brands fa-telegram"></i></a>
@@ -156,38 +168,42 @@
                                 <img src="img/backgroundImage.png" class="img-fluid" alt="">
                             </div>
                             <div class="col-12 d-flex" style="flex-wrap: wrap;justify-content:center;">
-                                <button class="customBtn"><i class="fa-brands fa-app-store"
-                                        style="padding-right: 10px;"></i>App Store</button>
+                                <button class="customBtn">
+                                    <i class="fa-brands fa-app-store" style="padding-right: 10px;"></i>
+                                    <span data-i18n="appstore">App Store</span>
+                                </button>
                                 <button  class="customBtn"><i class="fa-brands fa-google-play"
-                                        style="padding-right: 10px;"></i>Play Store</button>
+                                        style="padding-right: 10px;"></i>
+                                    <span data-i18n="playstore">Play Store</span>
+                                    </button>
                             </div>
 
                         </div>
                     </div>
                     <div class="animate__fadeIn animate__animated col-lg-6 col-12 order-2">
                         <div class="info-holder text-center">
-                            <p>BLUEBERRY GAME
+                            <p data-i18n="blueberry">BLUEBERRY GAME
                             </p>
                             <br>
                             <h1>
                                 B2E
                             </h1>
                             <br>
-                            <p>NFT smurfs was submitted inside the game with smurfs personalities and different abilities.
+                            <p data-i18n="nftb2e">NFT smurfs was submitted inside the game with smurfs personalities and different abilities.
                                 who own any of it will get daily return from blueberries according to smurf ability and specifications and it will be source of earning money.
                                 who owns the special character papa smurf will get the highest daily return and he has the right to vote on the project path.
-                                <div class="ReadMoreGame" >
-                                    <p>it's limited hours work and it increases with developing nft.
-                                        we have six smurfs:</p>
-                                    <p>1- papa smurf the special character.</p>
-                                    <p>2- smurfette the most skilled one in collecting blueberries.</p>
-                                    <p>3- quick smurf is the fastest between the others.</p>
-                                    <p>4- strong smurf has stamina.</p>
-                                    <p>5- smurf joking loves to have fun with smurfs.</p>
-                                    <p>6- clumsy smurf tripping over anything.</p>
-                                </div>
                             </p>
-                            <button id="readMoreGame" class="customBtn">
+                            <div class="ReadMoreGame" >
+                                <p data-i18n="readmore">it's limited hours work and it increases with developing nft.
+                                    we have six smurfs:</p>
+                                <p data-i18n="papasm">1- papa smurf the special character.</p>
+                                <p data-i18n="smurfette">2- smurfette the most skilled one in collecting blueberries.</p>
+                                <p data-i18n="qsm">3- quick smurf is the fastest between the others.</p>
+                                <p data-i18n="stsm">4- strong smurf has stamina.</p>
+                                <p data-i18n="jksm">5- smurf joking loves to have fun with smurfs.</p>
+                                <p data-i18n="clsm">6- clumsy smurf tripping over anything.</p>
+                            </div>
+                            <button id="readMoreGame" class="customBtn" data-i18n="readmoreBtn">
                                 Read more..
                             </button>
                         </div>
@@ -200,11 +216,11 @@
     <section id="nft" class="net">
         <div class="container">
             <div class="col-12 text-center nft ">
-                <h2>Smurfs market NFT</h2>
+                <h2 data-i18n="smmarket">Smurfs market NFT</h2>
                 <br>
-                <h4>A market to buy and sell nft smurfs, with developing to increase the hours of mining , it will be launched after finish vesting.</h4>
+                <h4 data-i18n="smmarketin">A market to buy and sell nft smurfs, with developing to increase the hours of mining , it will be launched after finish vesting.</h4>
                 <br>
-                <h1>NFT IS A LIMITED NUMBER</h1>
+                <h1 data-i18n="limited">NFT IS A LIMITED NUMBER</h1>
             </div>
 
             <div class="NFTSEC">
@@ -212,25 +228,25 @@
                     <DIV class="newNft text-center col-lg-12 col-6">
                         <div class="Rotateslider text-center" style="margin: 0 auto;">
                             <span style="--i:1">
-                                <p class="textImage">Quick smurf is the fastest between the others</p>
+                                <p class="textImage" data-i18n="qsm3">Quick smurf is the fastest between the others</p>
                                 <a href=""><img  src="img/1.png"  alt=""></a>
                             </span>
                             <span style="--i:2">
-                                <p class="textImage">Clumsy smurf tripping over anything</p>
+                                <p class="textImage" data-i18n="clsm6">Clumsy smurf tripping over anything</p>
                                 <a href=""><img  src="img/2.png"  alt=""></a></span>
                             <span style="--i:3">
-                                <p class="textImage">Papa smurf the special character</p>
+                                <p class="textImage" data-i18n="papasm1">Papa smurf the special character</p>
                                 <a href=""><img  src="img/3.png"  alt=""></a></span>
                             <span style="--i:4">
-                                <p class="textImage">Smurf joking loves to have fun with smurfs.</p>
+                                <p class="textImage" data-i18n="jksm5">Smurf joking loves to have fun with smurfs.</p>
                                 <a href=""><img  src="img/4.webp"  alt=""></a>
                             </span>
                             <span style="--i:5">
-                                <p class="textImage">Smurfette the most skilled one in collecting blueberries.</p>
+                                <p class="textImage" data-i18n="smurfette2">Smurfette the most skilled one in collecting blueberries.</p>
                                 <a href=""><img  src="img/6.webp"  alt=""></a>
                             </span>
                             <span style="--i:6">
-                                <p class="textImage">Strong smurf has stamina</p>
+                                <p class="textImage" data-i18n="stsm4">Strong smurf has stamina</p>
                                 <a href=""><img  src="img/5.png"  alt=""></a>
                             </span>
                         </div>
@@ -244,20 +260,20 @@
     <section id="token" class="token">
         <div class="container">
             <div class="col-12 text-center tokenbg">
-                <h1>TOKENOMICS</h1>
+                <h1 data-i18n="tokenmic">TOKENOMICS</h1>
                 <br>
-                <h1>Renounce Ownership after Launch</h1>
+                <h1 data-i18n="renounce">Renounce Ownership after Launch</h1>
                 <br>
                 <div class="col-lg-6 col-12 text-center tokenbg-enter  p-5" style="margin: 0 auto;">
-                    <h4>Max supply 1billion.</h4>
+                    <h4 data-i18n="max">Max supply 1billion.</h4>
                     <br>
-                    <p>tokens game 200M for mining  not for supply.</p>
-                    <p>tokens platforms 100M not for supply.</p>
-                    <p>tokens marketing 100M vesting 10% every 10 days to ensure strong marketing word and deed for hundred days</p>
+                    <p data-i18n="m200">tokens game 200M for mining  not for supply.</p>
+                    <p data-i18n="plat">tokens platforms 100M not for supply.</p>
+                    <p data-i18n="t10">tokens marketing 100M vesting 10% every 10 days to ensure strong marketing word and deed for hundred days</p>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:orange ;">Max supply </span>  1000 000 000</h4>
+                    <h4 style="display: inline;color:orange;" data-i18n="maxs">Max Supply </h4><h4 style="display: inline;"> 1000 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -267,7 +283,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:rgb(67, 67, 255) ;">Total supply </span> 1000 000 000</h4>
+                    <h4 style="display: inline;color:rgb(67, 67, 255);" data-i18n="totals">Total Supply </h4><h4 style="display: inline;"> 1000 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -277,7 +293,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:rgb(236, 255, 29) ;">Presale </span>  350 000 000</h4>
+                    <h4 style="display: inline;color:rgb(236, 255, 29);" data-i18n="pres">Presale </h4><h4 style="display: inline;"> 350 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -287,7 +303,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:rgb(255, 60, 242) ;">Liquidity </span>  210 000 000</h4>
+                    <h4 style="display: inline;color:rgb(255, 60, 242);" data-i18n="liq">Liquidity </h4><h4 style="display: inline;"> 210 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -297,7 +313,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:rgb(99, 0, 119) ;">Marketing </span> 100 000 000</h4>
+                    <h4 style="display: inline;color:rgb(99, 0, 119) ;" data-i18n="mar">Marketing </h4><h4 style="display: inline;"> 100 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -307,7 +323,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:rgb(228, 68, 0) ;">Cex </span> 100 000 000</h4>
+                    <h4 style="display: inline;color:rgb(228, 68, 0) ;" data-i18n="cex">Cex </h4><h4 style="display: inline;"> 100 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -317,7 +333,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:rgb(254,30,0) ;">Game </span>  200 000 000</h4>
+                    <h4 style="display: inline;color:rgb(254,30,0) ;" data-i18n="gamenft">Game </h4><h4 style="display: inline;"> 200 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -327,7 +343,7 @@
                 </div>
                 <br>
                 <div class="col-lg-6 col-12" style="margin: 0 auto; text-align:left;">
-                    <h4><span style="color:purple ;">Team </span> 40 000 000</h4>
+                    <h4 style="display: inline;color:purple ;" data-i18n="team">Team </h4><h4 style="display: inline;"> 40 000 000</h4>
                 </div>
                 <br>
                 <div class="col-lg-6 col-12 myProgress" style="margin: 0px auto;">
@@ -348,7 +364,7 @@
         <div class="container" >
             <div class="col-8 mb-5 mt-5 text-center" style="margin: 10px auto;">
                 <div class="roadMapTitle" >
-                    <h1 style="margin: 0;">Roadmap</h1>
+                    <h1 style="margin: 0;" data-i18n="roadm">Roadmap</h1>
                 </div>
             </div>
         </div>
@@ -359,11 +375,11 @@
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component-forTimeLine">
-                    <h2>Q2 2023</h2>
+                    <h2 data-i18n="Q1">Q2 2023</h2>
                     <ul>
-                        <li><p class="color-contrast-medium">Built our team</p></li>
-                        <li><p class="color-contrast-medium">Website launch</p></li>
-                        <li><p class="color-contrast-medium">Whitepaper release</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="Buil">Built our team</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="Weblaunch">Website launch</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="whitepaperR">Whitepaper release</p></li>
                     </ul>
                     <div class="flex-forTime justify-between-forTime items-center-forTime">                    </div>
                 </div> <!-- cd-timeline__content -->
@@ -375,13 +391,13 @@
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component-forTimeLine">
-                    <h2>Q3 2023</h2>
+                    <h2 data-i18n="Q2">Q3 2023</h2>
                     <ul>
-                        <li><p class="color-contrast-medium">Governance development</p></li>
-                        <li><p class="color-contrast-medium">IDO</p></li>  
-                        <li><p class="color-contrast-medium">Marketing campaign</p></li>
-                        <li><p class="color-contrast-medium">CMC</p></li>    
-                        <li><p class="color-contrast-medium">CG</p></li>    
+                        <li><p class="color-contrast-medium" data-i18n="Gov">Governance development</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="ido">IDO</p></li>  
+                        <li><p class="color-contrast-medium" data-i18n="marketing">Marketing campaign</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="CMC">CMC</p></li>    
+                        <li><p class="color-contrast-medium" data-i18n="CG">CG</p></li>    
                     </ul>
 
                     <div class="flex-forTime justify-between-forTime items-centerForTime">
@@ -395,12 +411,12 @@
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component-forTimeLine">
-                    <h2>Q4 2023</h2>
+                    <h2 data-i18n="Q3">Q4 2023</h2>
                     
                     <ul>
-                        <li><p class="color-contrast-medium">Game release</p></li>
-                        <li><p class="color-contrast-medium">Releasing NFT market smurfs</p></li>
-                        <li><p class="color-contrast-medium">Marketing every 10 days for 100 days.</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="gameR">Game release</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="nftR">Releasing NFT market smurfs</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="mark10">Marketing every 10 days for 100 days.</p></li>
                     </ul>
 
                     <div class="flex-forTime justify-between-forTime items-centerForTime">
@@ -414,11 +430,11 @@
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component-forTimeLine">
-                    <h2>Q1 2024</h2>
+                    <h2 data-i18n="Q4" >Q1 2024</h2>
 
                     <ul>
-                        <li><p class="color-contrast-medium">API launch</p></li>
-                        <li><p class="color-contrast-medium">Listing major cex</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="apiLaunch">API launch</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="listing">Listing major cex</p></li>
                     </ul>
 
                     <div class="flex-forTime justify-between-forTime items-centerForTime">
@@ -432,10 +448,10 @@
                 </div> <!-- cd-timeline__img -->
 
                 <div class="cd-timeline__content text-component-forTimeLine">
-                    <h2>Q2 2024</h2>
+                    <h2 data-i18n="Q5">Q2 2024</h2>
 
                     <ul>
-                        <li><p class="color-contrast-medium">Road map V2</p></li>
+                        <li><p class="color-contrast-medium" data-i18n="roadmapv2">Road map V2</p></li>
                     </ul>
                     
 
@@ -453,7 +469,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center pt-5 pb-5">
-                    <h1 style="font-weight: bolder;">Partners</h1>
+                    <h1 style="font-weight: bolder;" data-i18n="partners">Partners</h1>
                 </div>
             </div>
             <div class="row info-24">
@@ -508,7 +524,7 @@
         <div class="container">
 
             <div class="section-header text-center mb-5">
-                <h3><span style="color: rgb(254, 30, 0);">Need Help ? </span>Contact Us</h3>
+                <h3 style="color: rgb(254, 30, 0); display:inline" data-i18n="needh">Need Help ? </h3><h3 data-i18n="contactUs" style="display: inline;">Contact Us</h3>
             </div>
 
             <div class="row">
@@ -544,7 +560,7 @@
                                     placeholder="Subject" required>
                             </div>
                             <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                <textarea class="form-control" name="message" rows="5" id="message" placeholder="Message"
                                     required></textarea>
                             </div>
                             <div class="my-3">
@@ -552,7 +568,7 @@
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
-                            <div class="text-center"><button type="submit" title="Send Message">Send Message</button>
+                            <div class="text-center"><button type="submit" title="Send Message" data-i18n="sendM">Send Message</button>
                             </div>
                         </form>
                     </div>
@@ -570,41 +586,43 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 footer-links">
                         <ul>
-                            <li><a href="#hero">Home</a></li>
-                            <li><a href="#about">About us</a></li>
-                            <li><a href="#game">Game</a></li>
-                            <li><a href="#nft">NFT</a></li>
-                            <li><a href="#token">Token</a></li>
-                            <li><a href="#roadmap">Roadmap</a></li>
-                            <li><a href="#contact">Contact us</a></li>
+                            <li><a href="#hero" data-i18n="home">Home</a></li>
+                            <li><a href="#about" data-i18n="about">About us</a></li>
+                            <li><a href="#game" data-i18n="game">Game</a></li>
+                            <li><a href="#nft" data-i18n="NFT">NFT</a></li>
+                            <li><a href="#token" data-i18n="Token">Token</a></li>
+                            <li><a href="#roadmap" data-i18n="Roadmap">Roadmap</a></li>
+                            <li><a href="#contact" data-i18n="contact">Contact us</a></li>
 
                         </ul>
                     </div>
 
                     <div class="col-lg-6 col-md-6 footer-contact">
-                        <h4>Contact Us</h4>
+                        <h4 data-i18n="cu">Contact Us</h4>
                         <p>
-                            <strong>Email : </strong> support@smurfsst.com<br>
+                            <strong data-i18n="Email">Email : </strong> support@smurfsst.com<br>
                         </p>
                         <div class="social-links">
                             <div class="d-flex" style="justify-content: center;">
                                 <div class="col-6" >
                                     <a target="_blank" href="https://twitter.com/SmurfsTokenNFT?t=wtjp_W-yNtbr-nDLAhXnRQ&s=09" class="iconSocial"><i class="fa-brands fa-twitter"></i></a>
-                                    <span><a target="_blank" href="https://twitter.com/SmurfsTokenNFT?t=wtjp_W-yNtbr-nDLAhXnRQ&s=09">Twitter</a></span>
+                                    <span><a target="_blank" href="https://twitter.com/SmurfsTokenNFT?t=wtjp_W-yNtbr-nDLAhXnRQ&s=09" data-i18n="twitter">Twitter</a></span>
                                 </div>
                                 <div class="col-6">
-                                    <a target="_blank" href="https://t.me/smurfsAnnouncement" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
-                                    <span><a target="_blank" href="https://t.me/smurfsAnnouncement">Telegram Channel</a></span>
+                                    <a target="_blank" href="https://t.me/smurfsAnnouncement" class="iconSocial">
+                                        <i class="fa-brands fa-telegram"></i>
+                                    </a>
+                                    <span><a target="_blank" href="https://t.me/smurfsAnnouncement" data-i18n="tgch">Telegram Channel</a></span>
                                 </div>
                             </div>
                             <div class="d-flex">
                                 <div class="col-6">
                                     <a target="_blank" href="https://t.me/smurfsEN" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
-                                    <span><a target="_blank" href="https://t.me/smurfsEN">Telegram English</a></span>
+                                    <span><a target="_blank" href="https://t.me/smurfsEN" data-i18n="tgen">Telegram English</a></span>
                                 </div>
                                 <div class="col-6">
                                     <a target="_blank" href="https://t.me/smurfsCH" class="iconSocial"><i class="fa-brands fa-telegram"></i></a>
-                                    <span><a target="_blank" href="https://t.me/smurfsCH">Telegram Chinese</a></span>
+                                    <span><a target="_blank" href="https://t.me/smurfsCH" data-i18n="tgchi">Telegram Chinese</a></span>
                                 </div>
                             </div>
                 
@@ -617,8 +635,11 @@
 
         <div class="container">
             <div class="copyright">
-                Copyright &copy; <strong>2023</strong>. All Rights Reserved
-                <p style="margin:10px 0px 0px 0px">By <span style="color: #29b9ee; font-weight:bold;">SMURFS TOKEN</span></p>
+                <p style="margin: 0;" data-i18n="copyr">Copyright © <strong>2023</strong>. All Rights Reserved</p>
+                <p style="margin:10px 0px 0px 0px ; display:inline" data-i18n="by">By
+                </p>
+                <span style="color: #29b9ee; font-weight:bold;" data-i18n="st">SMURFS TOKEN</span>
+
             </div>
         </div>
     </footer>
@@ -628,6 +649,7 @@
             class="fa-solid fa-arrow-up"></i></a>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
+    <script src="js/translation.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/timeline.js"></script>
     <script src="js/main.js"></script>

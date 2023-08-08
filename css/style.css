@@ -1092,3 +1092,24 @@ li::marker{
         font-size: 13px;
     }
 }
+
+
+
+
+.langBtn{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    transition: linear 0.1s;
+    margin-right: 15PX;
+    border: SOLID 1PX white;
+}
+
+
+.langBtn:hover{
+    background-color: white;
+    color: RED;
+    border: 1PX SOLID rgb(255, 85, 85);
+}
