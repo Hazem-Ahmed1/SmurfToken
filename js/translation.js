@@ -87,7 +87,14 @@ const translations = {
     Email:"Email : ",
     by:"By",
     copyr:"Copyright © 2023. All Rights Reserved",
-    st:"SMURFS TOKEN"
+    st:"SMURFS TOKEN",
+    tax:"Tax",
+    b:"5% Buy",
+    s:"5% Sell",
+    m:"1% Marketing",
+    l:"2% Listing cex",
+    d:"2% Development",
+    ree:"Read the development agreement"
 
 
 
@@ -185,8 +192,17 @@ const translations = {
     Email:"电子邮件 : ",
     by:"经过",
     copyr:"版权所有 © 2023。保留所有权利",
-    by:"",
-    st:"蓝精灵令牌"
+    by:"经过",
+    st:"蓝精灵令牌",
+    tax:"税",
+    b:"5% 购买",
+    s:"5% 出售",
+    m:"1% 营销",
+    l:"2% 营销",
+    d:"2% 发展",
+    ree:"阅读开发协议",
+
+
 
 
 

@@ -755,7 +755,9 @@ li::marker{
 }
 
 #contact {
-    padding: 150px 0;
+    padding: 50px 0;
+    overflow: hidden;
+    padding-bottom: 150px;
     overflow: hidden;
   }
 
@@ -1163,11 +1165,9 @@ li::marker{
 .langBtn{
     border: none;
     border-radius: 5px;
-    padding: 5px 10px;
     background-color: red;
     color: white;
     transition: linear 0.1s;
-    margin-right: 15PX;
     border: SOLID 1PX BLACK;
 }
 
@@ -1176,4 +1176,26 @@ li::marker{
     background-color: BLACK;
     color: RED;
     border: 1PX SOLID rgb(255, 85, 85);
+}
+
+
+.flexy{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tokenS{
+    padding-left:15px ;
+}
+
+@media (max-width:750px) {
+    .tokenS{
+        padding-left: 0;
+    }
+}
+
+
+.hyper{
+    margin: 0px auto;
+    width: 250px;
 }
