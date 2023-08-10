@@ -242,15 +242,15 @@ const setLanguage = (language) => {
 
 
 
-function changePlaceholderLanguage(currentLanguage) {
+function changePlaceholderLanguage() {
   var placeholderName = document.getElementById("name");
   var placeholderEmail = document.getElementById("email");
   var placeholderSubject = document.getElementById("subject");
   var placeholderMessage = document.getElementById("message");
+  var x = localStorage.getItem('lang');
 
 
-
-  if (currentLanguage === 'en') {
+  if (x === 'en') {
     placeholderName.placeholder = "Your Name";
     placeholderEmail.placeholder = "Your Email";
     placeholderSubject.placeholder = "Subject";
