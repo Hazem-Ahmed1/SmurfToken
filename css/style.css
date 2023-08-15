@@ -1136,3 +1136,10 @@ li::marker{
     margin: 0px auto;
     width: 250px;
 }
+
+
+@media (max-width:1400px) {
+    .game-info{
+        padding: 0px;
+    }
+}

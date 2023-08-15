@@ -1204,3 +1204,10 @@ li::marker{
 .teamH1{
     color: white;
 }
+
+
+@media (max-width:1400px) {
+    .game-info{
+        padding: 0px;
+    }
+}
