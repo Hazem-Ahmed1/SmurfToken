@@ -1143,3 +1143,21 @@ li::marker{
         padding: 0px;
     }
 }
+
+
+.newSection{
+    margin-top: 20px;
+    box-shadow: var(--mainColor) 0px 12px 16px 2px;
+    padding: 30px 80px;
+    border-radius: 15px;
+    transition: all 0.7s;
+    position: relative;
+}
+.newSection h4{
+    line-height: 2;
+    font-size: 30;
+    font-weight: 500;
+}
+.newEditedSection{
+    padding: 70px 0px;
+}

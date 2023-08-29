@@ -59,24 +59,24 @@ const translations = {
     gamenft:"Game ",
     team:"Team ",
     roadm:"Roadmap",
-    Q1:"Q2 2023",
+    Q1:"Q3 2023",
     Buil:"Built our team",
     Weblaunch:"Website launch",
     whitepaperR:"Whitepaper release",
-    Q2:"Q3 2023",
+    Q2:"Q4 2023",
     Gov:"Governance development",
     ido:"IDO",
     marketing:"Marketing campaign",
     CMC:"CMC",
     CG:"CG",
-    Q3:"Q4 2023",
+    Q3:"Q5 2023",
     gameR:"Game release",
     nftR:"Releasing NFT market smurfs",
     mark10:"Marketing every 10 days for 4 months",
-    Q4:"Q1 2024",
+    Q4:"Q2 2024",
     apiLaunch:"API launch",
     listing:"Listing major cex",
-    Q5:"Q2 2024",
+    Q5:"Q3 2024",
     roadmapv2:"Road map V2",
     partners:"Partners",
     needh:"Need Help ? ",
@@ -95,7 +95,9 @@ const translations = {
     l:"2% Listing cex",
     d:"2% Development",
     ree:"Read the development agreement",
-    sixity:"60% from NFT sellings will be burned and 30% will be from listing cex."
+    sixity:"60% from NFT sellings will be burned and 30% will be from listing cex.",
+    mark11:"Continue marketing campaign",
+    newS:"It is a short roadmap and easy to implement because we deal with the global hyperlink for development and this allows for rapid development and ensuring high security. The game will be release 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will begin when mining begins, this ensures stability and strength of the currency."
 
 
 
@@ -165,24 +167,24 @@ const translations = {
     gamenft:"游戏",
     team:"团队",
     roadm:"路线图",
-    Q1:"Q2 2023",
+    Q1:"Q3 2023",
     Buil:"建立了我们的团队",
     Weblaunch:"网站上线",
     whitepaperR:"白皮书发布",
-    Q2:"Q3 2023",
+    Q2:"Q4 2023",
     Gov:"治理发展",
     ido:"我愿意",
     marketing:"营销活动",
     CMC:"羧甲基纤维素钠",
     CG:"CG",
-    Q3:"Q4 2023",
+    Q3:"Q5 2023",
     gameR:"游戏发布",
     nftR:"释放NFT市场蓝精灵",
     mark10:"持续 4 个月，每 10 天进行一次营销",
-    Q4:"Q1 2024",
+    Q4:"Q2 2024",
     apiLaunch:"API发布",
     listing:"列出主要 cex",
-    Q5:"Q2 2024",
+    Q5:"Q3 2024",
     roadmapv2:"路线图V2",
     partners:"伙伴",
     needh:"需要帮忙 ？",
@@ -203,6 +205,8 @@ const translations = {
     d:"2% 发展",
     ree:"阅读开发协议",
     sixity:"NFT 销售的 60% 将被销毁，30% 将来自上市 cex。",
+    mark11:"继续营销活动",
+    newS :"这是一个简短的路线图，易于实施，因为我们处理全球超链接进行开发，这可以实现快速开发并确保高安全性。 游戏将在项目上线后4个月发布，并在游戏发布前两个月和游戏发布后两个月开始营销活动，并在挖矿开始时开始燃烧，这保证了货币的稳定性和强度。"
 
 
 
@@ -223,6 +227,7 @@ languageButton.addEventListener("click", () => {
   const newLanguage = currentLanguage === "en" ? "ch" : "en";
   setLanguage(newLanguage);
   localStorage.setItem("lang", newLanguage);
+  location.reload();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
