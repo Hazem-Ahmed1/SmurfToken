@@ -69,7 +69,7 @@ const translations = {
     marketing:"Marketing campaign",
     CMC:"CMC",
     CG:"CG",
-    Q3:"Q5 2023",
+    Q3:"Q1 2024",
     gameR:"Game release",
     nftR:"Releasing NFT market smurfs",
     mark10:"Marketing every 10 days for 4 months",
@@ -97,7 +97,7 @@ const translations = {
     ree:"Read the development agreement",
     sixity:"60% from NFT sellings will be burned and 30% will be from listing cex.",
     mark11:"Continue marketing campaign",
-    newS:"It is a short roadmap and easy to implement because we deal with the global hyperlink for development and this allows for rapid development and ensuring high security. The game will be release 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will begin when mining begins, this ensures stability and strength of the currency."
+    newS:"It is a short roadmap and easy to implement because we deal with the global hyperlink for development and this allows for rapid development and ensuring high security. The game will be release 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will begin when mining begins(Live game), this ensures stability and strength of SST."
 
 
 
@@ -177,7 +177,7 @@ const translations = {
     marketing:"营销活动",
     CMC:"羧甲基纤维素钠",
     CG:"CG",
-    Q3:"Q5 2023",
+    Q3:"Q1 2024",
     gameR:"游戏发布",
     nftR:"释放NFT市场蓝精灵",
     mark10:"持续 4 个月，每 10 天进行一次营销",
@@ -206,7 +206,7 @@ const translations = {
     ree:"阅读开发协议",
     sixity:"NFT 销售的 60% 将被销毁，30% 将来自上市 cex。",
     mark11:"继续营销活动",
-    newS :"这是一个简短的路线图，易于实施，因为我们处理全球超链接进行开发，这可以实现快速开发并确保高安全性。 游戏将在项目上线后4个月发布，并在游戏发布前两个月和游戏发布后两个月开始营销活动，并在挖矿开始时开始燃烧，这保证了货币的稳定性和强度。"
+    newS :"这是一个简短的路线图，易于实施，因为我们处理全球超链接进行开发，这可以实现快速开发并确保高安全性。 游戏将在项目上线后4个月发布，并在游戏发布前两个月和发布后两个月开始营销活动，并在挖矿开始时开始燃烧（直播游戏），保证稳定性和强度 海温。"
 
 
 
