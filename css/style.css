@@ -17,6 +17,7 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 
@@ -534,7 +535,7 @@ li::marker{
     box-shadow: var(--mainColor) 0px 12px 16px 2px;
     padding: 20px;
     border-radius: 15px;
-    padding-bottom: 40px;
+    padding-bottom: 55px;
 
 }
 
@@ -542,12 +543,12 @@ li::marker{
     box-shadow: var(--mainColor) 0px 0px 16px 2px;
     padding: 20px;
     border-radius: 15px;
-    border-radius:15px 15px 0px 0px ;
+    border-radius:15px;
     transition: 1s all ;
 
 }
 .tokenbg-enter:hover{
-    transform: translateY(-5px);
+    transform: translateY(5px);
 }
 
 
@@ -1155,4 +1156,68 @@ li::marker{
 }
 .newEditedSection{
     padding: 70px 0px;
+}
+
+.copyText button{
+    padding: 5px 10px;
+    background-color: var(--mainColor);
+    color: white;
+    border: #0000005e 1px solid;
+    position: relative;
+
+}
+.copyText button:active{
+    background-color: rgb(255, 117, 117);
+}
+
+.copyText button::before{
+    content: "Copied";
+    position: absolute;
+    top: -40px;
+    color: white;
+    right: 0;
+    padding: 3px 10px;
+    background-color: var(--mainColor);
+    font-size: 14px;
+    border-radius: 20px;
+    transition: 0.7s all;
+    display: none;
+}
+
+.copyText button::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 18px;
+    width: 10px;
+    height: 10px;
+    background: var(--mainColor);
+    transform: rotate(45deg);
+    transition: 0.7s all;
+    display: none;
+}
+
+.copyText.active button::after,
+.copyText.active button::before{
+    display: block;
+}
+.copyText input{
+    color: black;
+    background-color: transparent;
+    border: #0000005e 1px solid;
+}
+
+.copyText input:focus{
+    border: #0000005e 1px solid;
+    outline: 0;
+}
+
+
+@media (max-width:750px) {
+    .copyText input{
+        font-size: 12px;
+    }
+    .copyText button{
+        padding: 2px;
+    }
 }

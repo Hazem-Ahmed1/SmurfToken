@@ -46,10 +46,18 @@ const translations = {
     clsm6:"clumsy smurf tripping over anything.",
     tokenmic:"TOKENOMICS",
     renounce :"Renounce Ownership after Launch",
-    max :"Max supply 1billion.",
-    m200 :"-Tokens game 200M for mining  not for supply.",
-    plat:"-Tokens platforms 100M not for supply.",
-    t10:"-Tokens marketing 100M vesting 8% every 10 days to ensure strong marketing word and deed for 4 months.",
+    vesting:"",
+    unlock_1:"",
+
+    tokenmining:"",
+    unlock_2:"",
+
+    teamTo:"",
+    unlock_3:"",
+
+    platformToken:"",
+    unlock_4:"",
+
     maxs:"Max supply ",
     totals:"Total supply ",
     pres:"Presale ",
@@ -64,7 +72,7 @@ const translations = {
     Weblaunch:"Website launch",
     whitepaperR:"Whitepaper release",
     Q2:"Q4 2023",
-    Gov:"Governance development",
+    Gov:"Audit contract and KYC",
     ido:"IDO",
     marketing:"Marketing campaign",
     CMC:"CMC",
@@ -92,14 +100,27 @@ const translations = {
     b:"5% Buy",
     s:"5% Sell",
     m:"1% Marketing",
-    l:"2% Listing cex",
-    d:"2% Development",
+    l:"1% Listing cex",
+    d:"1% Development",
     ree:"Read the development agreement",
     sixity:"60% from NFT sellings will be burned and 30% will be from listing cex.",
     mark11:"Continue marketing campaign",
-    newS:"It is a short roadmap and easy to implement because we deal with the global hyperlink for development and this allows for rapid development and ensuring high security. The game will be release 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will begin when mining begins(Live game), this ensures stability and strength of SST."
+    newS:"It is a short roadmap and easy to implement because we deal with the global hyperlink infosystem which allows for rapid development and ensuring high security. -The game will be released 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will start when mining begins, this ensures stability and strength of SST"
+    ,liqPool:"1% To the liquidity pool",
+    tokenHolders:"1% To all token holders",
+    Burn:"Burn SST",
+    partnership:"Partnership",
+    vesting:"-Tokens marketing 100M vesting 8% every 10 days to ensure strong marketing word and deed for 4 months.",
+    unlock_1:"Unlock time 1/12/2023",
+    
+    tokenmining:"-Tokens game 200M for mining not for supply.",
+    unlock_2:"Unlock time 1/2/2024",
 
+    teamTo:"-Team token 30M vesting 20% every 10  days.",
+    unlock_3:"Unlock time 1/3/2024",
 
+    platformToken:"-Tokens platforms 150M not for supply.",
+    unlock_4:"Unlock time 1/5/2024",
 
     
 
@@ -154,10 +175,6 @@ const translations = {
     clsm6:"笨手笨脚的蓝精灵被任何东西绊倒。",
     tokenmic:"代币经济学",
     renounce :"发布后放弃所有权",
-    max :"最大供应量10亿。",
-    m200 :"-游戏代币200M用于挖矿而非供应。",
-    plat:"-代币平台100M不供供应。",
-    t10:"-营销代币每 10 天 100M 归属 8%，以确保 4 个月内强有力的营销言行。",
     maxs:"最大供应量",
     totals:"总供应量",
     pres:"预售",
@@ -172,7 +189,7 @@ const translations = {
     Weblaunch:"网站上线",
     whitepaperR:"白皮书发布",
     Q2:"Q4 2023",
-    Gov:"治理发展",
+    Gov:"审计合同和 KYC",
     ido:"我愿意",
     marketing:"营销活动",
     CMC:"羧甲基纤维素钠",
@@ -201,12 +218,28 @@ const translations = {
     b:"5% 购买",
     s:"5% 出售",
     m:"1% 营销",
-    l:"2% 营销",
-    d:"2% 发展",
+    l:"1% 营销",
+    d:"1% 发展",
     ree:"阅读开发协议",
     sixity:"NFT 销售的 60% 将被销毁，30% 将来自上市 cex。",
     mark11:"继续营销活动",
-    newS :"这是一个简短的路线图，易于实施，因为我们处理全球超链接进行开发，这可以实现快速开发并确保高安全性。 游戏将在项目上线后4个月发布，并在游戏发布前两个月和发布后两个月开始营销活动，并在挖矿开始时开始燃烧（直播游戏），保证稳定性和强度 海温。"
+    newS :"这是一个简短的路线图并且易于实施，因为我们处理全球超链接信息系统，该系统允许快速开发并确保高安全性。 -游戏将在项目上线后4个月发布，并在游戏发布前两个月和游戏发布后两个月开始营销活动，并在挖矿开始时开始燃烧，这保证了SST的稳定性和强度",
+    liqPool:"1% 注入流动性池",
+    tokenHolders: "1% 给所有代币持有者",
+    Burn:"烧毁海温",
+    partnership:"合伙",
+
+    vesting:"-营销代币每 10 天 100M 归属 8%，以确保 4 个月内强有力的营销言行。",
+    unlock_1:"解锁时间2023年1月12日",
+    
+    tokenmining:"-游戏代币200M用于挖矿而非供应。",
+    unlock_2:"解锁时间2024年1月2日",
+
+    teamTo:"-团队代币 3000 万，每 10 天奖励 20%。",
+    unlock_3:"解锁时间2024年1月3日",
+
+    platformToken:"-代币平台150M不供供应。",
+    unlock_4:"解锁时间2024年1月5日",
 
 
 

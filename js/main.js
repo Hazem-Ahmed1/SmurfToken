@@ -210,4 +210,14 @@ buttonR.addEventListener("click", readMore);
 
 
 
-
+let CopyText = document.querySelector(".copyText");
+CopyText.querySelector("button").addEventListener("click", function() {
+  let copyInput = CopyText.querySelector("input");
+  copyInput.select();
+  document.execCommand("copy");
+  CopyText.classList.add("active");
+  window.getSelection().removeAllRanges();
+  setTimeout(() => {
+    CopyText.classList.remove("active");
+  }, 2500);
+});
