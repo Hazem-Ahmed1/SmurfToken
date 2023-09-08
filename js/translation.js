@@ -105,7 +105,8 @@ const translations = {
     ree:"Read the development agreement",
     sixity:"60% from NFT sellings will be burned and 30% will be from listing cex.",
     mark11:"Continue marketing campaign",
-    newS:"It is a short roadmap and easy to implement because we deal with the global hyperlink infosystem which allows for rapid development and ensuring high security. -The game will be released 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will start when mining begins, this ensures stability and strength of SST"
+    newS1:"- It is a short roadmap and easy to implement because we deal with the global hyperlink infosystem which allows for rapid development and ensuring high security.",
+    newS2:"- The game will be released 4 months after the launch of the project and the marketing campaign will start two months before the release of the game and two months after it, and burning will start when mining begins, this ensures stability and strength of SST"
     ,liqPool:"1% To the liquidity pool",
     tokenHolders:"1% To all token holders",
     Burn:"Burn SST",
@@ -223,7 +224,8 @@ const translations = {
     ree:"阅读开发协议",
     sixity:"NFT 销售的 60% 将被销毁，30% 将来自上市 cex。",
     mark11:"继续营销活动",
-    newS :"这是一个简短的路线图并且易于实施，因为我们处理全球超链接信息系统，该系统允许快速开发并确保高安全性。 -游戏将在项目上线后4个月发布，并在游戏发布前两个月和游戏发布后两个月开始营销活动，并在挖矿开始时开始燃烧，这保证了SST的稳定性和强度",
+    newS1 :"- 这是一个简短的路线图，易于实施，因为我们处理全球超链接信息系统，可以快速开发并确保高安全性。",
+    newS2 :"- 游戏将在项目上线后4个月发布，并在游戏发布前两个月和游戏发布后两个月开始营销活动，并在挖矿开始时开始燃烧，这保证了SST的稳定性和强度",
     liqPool:"1% 注入流动性池",
     tokenHolders: "1% 给所有代币持有者",
     Burn:"烧毁海温",
