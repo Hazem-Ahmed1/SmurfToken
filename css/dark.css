@@ -432,13 +432,22 @@ html{
     height: auto;
     clip-path: circle();
 
-    max-width: 50% !important;
+    max-width: 75% !important;
 }
 .ReadMoreGame{
     display: none;
 }
 li::marker{
     color: white;
+}
+
+@media (max-width:750px) {
+    .prof-img h3{
+        font-size: 20px;
+    }
+    .prof-img p{
+        font-size: 15px;
+    }
 }
 
 

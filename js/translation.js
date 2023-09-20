@@ -87,9 +87,9 @@ const translations = {
     tax:"Tax",
     b:"5% Buy",
     s:"5% Sell",
-    m:"1% Marketing",
+    m:"2% Marketing",
     l:"1% Listing cex",
-    d:"1% Development",
+    d:"2% Development",
     ree:"Read the development agreement",
     sixity:"60% from NFT sellings will be burned and 30% will be from listing cex.",
     mark11:"Continue marketing campaign",
@@ -101,15 +101,14 @@ const translations = {
     partnership:"Partnership",
     vesting:"-Tokens marketing 100M vesting 8% every 10 days to ensure strong marketing word and deed for 4 months.",
     unlock_1:"Unlock time 1/12/2023",
-    
     tokenmining:"-Tokens game 200M for mining not for supply.",
     unlock_2:"Unlock time 1/2/2024",
-
     teamTo:"-Team token 30M vesting 20% every 10  days.",
     unlock_3:"Unlock time 1/3/2024",
-
     platformToken:"-Tokens platforms 150M not for supply.",
     unlock_4:"Unlock time 1/5/2024",
+    cesar : "Moderator and Marketing Officer in China",
+    mark_smith:"the developer that is responsible to communicate with hyperlink infosystem company"
   }
   ,
   ch: {
@@ -200,9 +199,9 @@ const translations = {
     tax: "税",
     b: "购买5%",
     s: "出售5%",
-    m: "市场营销1%",
+    m: "场营销2%",
     l: "中心化交易所上市1%",
-    d: "开发1%",
+    d: "开发2%",
     ree: "阅读开发协议",
     sixity: "来自NFT销售的60%将被销毁，30%将来自中心化交易所的上市。",
     mark11: "继续市场营销活动",
@@ -220,6 +219,9 @@ const translations = {
     unlock_3: "解锁时间：2024年3月1日",
     platformToken: "-平台代币150M，不供应。",
     unlock_4: "解锁时间：2024年5月1日",
+    cesar :"中国的版主兼营销官",
+    mark_smith:"负责与 Hyperlink Infosystem 公司沟通的开发人员"
+
   }
   
 };
