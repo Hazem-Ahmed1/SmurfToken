@@ -90,7 +90,7 @@ function move() {
         } else {
           currentWidth += 1;
           element.style.width = currentWidth + "%";
-          element.querySelector(".label").textContent = currentWidth + "%";
+          element.querySelector(".label").textContent = targetWidth + "%";
 
           // Set the label's background color and border color
           element.querySelector(".label").style.boxShadow = bgColor;
